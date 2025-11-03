@@ -1,0 +1,13 @@
+/* Subtle defaults — works with the MUI dark theme below */
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Make cards a bit rounder globally */
+.MuiCard-root { border-radius: 16px; }
+
+/* Give chips tiny breathing room when many appear */
+.MuiChip-root { margin: 2px; }
