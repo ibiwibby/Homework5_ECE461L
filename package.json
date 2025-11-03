@@ -1,1 +1,1 @@
-{ "name":"root","version":"1.0.0","private":true,"scripts":{"heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm --prefix client ci && npm --prefix client run build"} }
+{ "name":"root","version":"1.0.0","private":true,"scripts":{"heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm --prefix client install && npm --prefix client run build"} }
